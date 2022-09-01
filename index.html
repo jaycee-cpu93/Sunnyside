@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="responsive_style.css">
 </head>
 <body>
     <!-- header starts here -->
     <header>
         <div class="logo-nav">
-            <div class="logo"></div>
+            <div class="logo"><img src="images/logo.svg" alt="logo: sunnyside"></div>
             <div class="nav">
                 <ul>
+                    <a href="#" class="hamburger"><img src="images/icon-hamburger.svg" alt="icon: hamburger for mobile"/></a>
                     <a href="#"><li>About</li></a>
                     <a href="#"><li>Service</li></a>
                     <a href="#"><li>Project</li></a>
@@ -23,35 +25,36 @@
         </div>
         <h1>we are creatives</h1>
         <div class="arrow">
-            <img src="images/icon-arrow-down.svg" alt="icon: inverse arrow" >
+            <img src="images/icon-arrow-down.svg" alt="icon: inversed arrow" >
         </div>
     </header>
     <!-- header ends here -->
     <!-- section grid begins here -->
     <section class="grid">
-        <div class="first-row">
+        <div class="row">
             <div class="text">
-                <div class="text-content">
+                <div class="content">
                     <h2>Transform your brand</h2>
                     <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-                    <a href="#"><h3>Learn More</h3></a>
+                    <a href="#" class="border_one"><h3>Learn More</h3></a>
+                    <div ></div>
                 </div>
                 
             </div>
             <div class="image transform"></div>
         </div>
-        <div class="second-row">
+        <div class="row">
             <div class="image standout"></div>
             <div class="text">
-                <div class="text-content">
+                <div class="content">
                     <h2>Stand out to the right audience</h2>
                     <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-                    <a href="#"><h3>Learn More</h3></a>
+                    <a href="#" class="border_one two"><h3>Learn More</h3></a>
                 </div>
             </div>
         </div>
-        <div class="third-row">
-            <div class="image apple">
+        <div class="row">
+            <div class="apple">
                 <div class="graphic-design-text">
                     <h2>Graphic Design</h2>
                     <p>Great design makes you memorable. We deliver
@@ -59,7 +62,7 @@
                         and captures potential clients' attention.</p>
                 </div>
             </div>
-            <div class="image orange-leaf">
+            <div class="orange-leaf">
                 <div class="graphic-design-text">
                     <h2>Photography</h2>
                     <p>Increase your credibility by getting the most
@@ -99,15 +102,19 @@
             </div>
         </div>
     </section>
-    <section class="footer-images">
-        <div class="footer-image bottle"></div>
-        <div class="footer-image orange"></div>
-        <div class="footer-image cone"></div>
-        <div class="footer-image sugar"></div>
+    <section class="gallery">
+        <div class="bottle-orange">
+            <div class="gallery-image bottle"></div>
+            <div class="gallery-image orange"></div>
+        </div>
+        <div class="cone-sugar">
+            <div class="gallery-image cone"></div>
+            <div class="gallery-image sugar"></div>
+        </div>
     </section>
     <footer>
         <div class="footer-container">
-            <div class="logo-foooter"></div>
+            <div class="logo-footer"><img src="images/logo-footer.svg" alt="logo: sunnyside"></div>
             <div class="footer-nav">
                 <ul>
                     <a href="#"><li>About</li></a>
